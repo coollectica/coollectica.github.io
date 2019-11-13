@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PDF</title>
+</head>
+<body>
+	<p>PDF amb &lt;iframe&gt;</p>
+	<iframe type="application/pdf" src="http://www.unsam.edu.ar/escuelas/economia/Ciepe/pdf/Informe%20Petroleo%20marzo%202017.pdf"></iframe>
+	<p>PDF amb &lt;embed&gt;</p>
+	<embed type="application/pdf" src="http://www.unsam.edu.ar/escuelas/economia/Ciepe/pdf/Informe%20Petroleo%20marzo%202017.pdf"></embed>
+
+	<p>PDF amb &lt;object&gt;</p>
+	<object type="application/pdf" data="http://www.unsam.edu.ar/escuelas/economia/Ciepe/pdf/Informe%20Petroleo%20marzo%202017.pdf"></object>
+
+</body>
+</html>
