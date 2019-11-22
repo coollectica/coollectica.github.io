@@ -1,0 +1,9 @@
+h1{
+  color: red;
+}
+section>h3{
+  color: green;
+}
+section p{
+  color:blue;
+}
