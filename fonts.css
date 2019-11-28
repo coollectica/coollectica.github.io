@@ -1,10 +1,13 @@
 @font-face {
   font-family: KGWhattheTeacherWants;
-  src: url(https:/coollectica.github.io/fonts.css) 
+  src: url("https:/coollectica.github.io/KGWhattheTeacherWants.ttf"); 
   
 }
 
-body { font-family: Abeezee, "Century Gothic", CenturyGothic, AppleGothic, Tahoma, Verdana, “Microsoft Sans Serif Normal”; sans-serif;}
-#Bastet{
+body { 
+  font-family: 'ABeeZee', "Century Gothic", CenturyGothic, AppleGothic, Tahoma, Verdana, "Microsoft Sans Serif Normal", sans-serif;
+}
+
+.Bastet{
   font-family: KGWhattheTeacherWants;
 }
