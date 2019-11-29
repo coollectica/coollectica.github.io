@@ -1,21 +1,19 @@
 @font-face {
   font-family: KGWhattheTeacherWants;
-  src: url("https:/coollectica.github.io/KGWhattheTeacherWants.ttf"); 
-  
+  src: url("https:/coollectica.github.io/KGWhattheTeacherWants.ttf");  
 }
 
 body { 
   font-family: 'ABeeZee', "Century Gothic", CenturyGothic, AppleGothic, Tahoma, Verdana, "Microsoft Sans Serif Normal", sans-serif;
 }
-
 .Bastet{
   font-family: KGWhattheTeacherWants;
 }
-
 span{
   display:inline-block;
 }
 header{
   border-color:white;
   border-style:solid;
-  background : linear-gradient(to right, hsl(180 100% 50%), hsl(240 100% 50%));}
+  background : linear-gradient(to right, hsl(180 100% 50%), hsl(240 100% 50%));
+}
