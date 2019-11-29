@@ -11,3 +11,16 @@ body {
 .Bastet{
   font-family: KGWhattheTeacherWants;
 }
+
+span{
+  display:inline-block;
+}
+header{
+  border-color:white;
+  border-style:solid;
+  background : linear-gradient(to right, hsl(180 100% 50%), hsl(240 100% 50%));
+}
+.banner>p{
+  color:black;
+  
+}
