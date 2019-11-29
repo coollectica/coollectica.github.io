@@ -17,3 +17,9 @@ header{
   border-style:solid;
   background : linear-gradient(to right, hsl(180 100% 50%), hsl(240 100% 50%));
 }
+.Bastet {
+  background : linear-gradient(to right, hsl(250 100% 50%), hsl(210 100% 50%));
+  color:transparent;
+  -webkit-background-clip:text;
+
+}
