@@ -1,15 +1,17 @@
-@font-face {
+ @font-face {
       font-family : "Roboto";
 src : url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
     }
  
   
 h2  {
-  font-family: Haettenschweiler; font-size: 10vh; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+  font-family: Haettenschweiler; font-size: 10vh; font-style: normal; 
   src: url("http://coollectica.github.io/Prova2/Haettenschweiler-Regular.ttf");
+  background-color: grey;
   }
 h3 {
-  font-family: Haettenschweiler; font-size: 8vh; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+  font-family: Haettenschweiler; font-size: 8vh; font-style: normal; 
   src: url("http://coollectica.github.io/Prova2/Haettenschweiler-Regular.ttf");
+  background-color: grey;
   }
   
