@@ -11,7 +11,7 @@ src : url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
   
 body h2  {
   font-family: Haettenschweiler; font-size: 10vh; font-style: normal; 
-  src: url("http://coollectica.github.io/Prova2/Haettenschweiler-Regular.ttf");
+  src: url("https://coollectica.github.io/Prova2/Haettenschweiler-Regular.ttf");
   background-color: grey;
   -webkit-box-shadow: 10px 10px 16px 2px rgba(255,255,255,1);
 -moz-box-shadow: 10px 10px 16px 2px rgba(255,255,255,1);
@@ -19,7 +19,7 @@ box-shadow: 10px 10px 16px 2px rgba(255,255,255,1);
   }
 body h3 {
   font-family: Haettenschweiler; font-size: 8vh; font-style: normal; 
-  src: url("http://coollectica.github.io/Prova2/Haettenschweiler-Regular.ttf");
+  src: url("https://coollectica.github.io/Prova2/Haettenschweiler-Regular.ttf");
   background-color: grey;
   -webkit-box-shadow: 10px 10px 16px 2px rgba(255,255,255,1);
 -moz-box-shadow: 10px 10px 16px 2px rgba(255,255,255,1);
