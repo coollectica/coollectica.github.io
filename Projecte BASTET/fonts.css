@@ -1,0 +1,16 @@
+@font-face {
+  font-family: KGWhattheTeacherWants;
+  src: url("https://coollectica.github.io/KGWhattheTeacherWants.ttf");  
+}
+
+body { 
+  font-family: 'ABeeZee', "Century Gothic", CenturyGothic, AppleGothic, Tahoma, Verdana, "Microsoft Sans Serif Normal", sans-serif;
+}
+.bastet{
+  font-family: KGWhattheTeacherWants;
+  font-size:8vh;
+}
+
+.subtitle{
+	font-size: 5vh;
+}
