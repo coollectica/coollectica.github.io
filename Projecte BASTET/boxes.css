@@ -1,4 +1,46 @@
-/*xavi*/
+
+
+.flex > .wrapper{
+	flex: 0 70vw;
+}
+
+/* HEADER */
+
+.titol>p {
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.navlist {
+	list-style-type: none;
+	display:flex;
+	justify-content: space-around;
+}
+
+li {
+	float: left;
+	padding: 5px 10px;
+}
+
+li a {
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/* BODY - MAIN*/
+
+.flex.form {
+	flex-grow: 1;
+	flex-shrink: 1;
+	justify-content: center;
+}
+
+.fieldset.flex{
+	min-width: : 25%;
+	flex:1 50vw;
+}
 
 .flex{
 	display: flex;	
@@ -13,92 +55,104 @@
 .flex.col > *{
 	flex-grow: 1;
 }
-.flex > .fixed-width, .flex.col > .fixed-height{
-	flex-grow:0;
-	flex-shrink: 0;
-}
 
 .flex > .fluid{
 	flex-grow: 1;
 	flex-shrink: 1;
-	flex-basis: auto;
+	flex-basis: auto;	
 }
 
-.flex > .wrapper{
-	flex: 0 70vw;
+.formfields{
+	min-width: 80%;
+	margin:20px;
+	justify-content: center;
+}
+
+figcaption {
+	margin-bottom: 20px;
+}
+
+label, select, input{
+	min-width: 95%;
+	max-width: 95%;
+	width: 95%;
+	margin:0;
+}
+
+
+/* BODY - ASIDE */
+
+
+.flex > .fixed-width { 
+	flex: 0 0 250px;
+	border:hsl(0, 0%, 25%) 1px solid;
+	align-items: stretch;
+}
+
+.statistics, .forum, .marketplace{
+	height: 200px;
+	width: 90%
+	margin:5px;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+/* BODY - FOOTER */
+
+
+.flex.col > .fixed-height{
+	flex-grow:0;
+	flex-shrink: 0;
 }
 
 .cols{
-	columns:4;
+	columns:3;
+	flex:1;
+	margin: 10px;
 }
 
 .cols > *{
-	background: hsla(190, 100%, 32%, 80%);
-	width:150px;
-	height: 150px;
+	width:125px;
+	height: 125px;
 }
 
-figure{
-	width: 150px;
-	height: 150px;
-}
 
 figure>img {
 	width: 100%;
 	height: 100%;
 }
 
-/*HEADER*/
-
-.titol>p {
-  margin: 1px;
-  padding: 1px 1px;
-}
-
-.navlist {
-	list-style-type: none;
-	display:flex;
-	justify-content: space-around;
-}
-
-
-li {
-	float: left;
-	padding: 5px 10px;
-}
-
-li a {
-	text-align: center;
-	text-decoration: none;
-}
-
 .main{
-	
-	align-content: flex-end;
-	border: solid 2px red;
 	min-height: 1000px;
 }
 
-.lateral{
-	flex: 0.5 0 20ex;
-	border:hsl(0, 0%, 25%) 1px solid;
-	margin: 5px 5px;
-	align-items: stretch;
-}
 .newadds{
 	flex: 2 auto;
 }
 
+
+/* FOOTER*/
+
+
 .footer{
-	
 	min-height: auto;
-	border: red 3px solid
+	border: black 3px solid
 }
 
 .footernavbar{
 	list-style-type: none;
 	display:flex;
 	justify-content: space-around;
+}
+
+
+/* posar un media query per pasar de 3 columnes a 2*/
+
+
+@media screen and (max-width: 1300px){
+		.cols {
+			columns:2;	
 }
 
 

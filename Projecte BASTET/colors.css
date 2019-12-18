@@ -1,7 +1,8 @@
 body {
 	background-image:url("http://coollectica.github.io/assets/img/content/dunes.jpg");
 	background-size: cover;
-	background-attachment: fixed; 
+	background-attachment: fixed;
+	margin:0;
 }
 
 .tint{
@@ -16,6 +17,11 @@ body {
   	hsla(190, 100%, 64%, 80%));
 }
 
+figcaption {
+	background-color: black;
+	color: white;
+	min-width: 100%;
+}
 
 .bastet {
   color: black;
@@ -24,14 +30,14 @@ body {
  color: black;
 }
 
-li {
+li , button{
 	background-color: hsla(190, 100%, 32%, 80%);
 	border-radius:10px;
 	box-shadow: none;
 	color: white;
 }
 
-li:hover{
+li:hover, button:hover{
 	box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 1);
 }
 
@@ -48,8 +54,18 @@ li>a {
   	background-color: black;
   }
 
+
 .lateral{
-	background-color: hsla(0, 0%, 15%, 50%)
+	background-color: hsla(36, 100%, 85%, 0.7);
+}
+
+.statistics, .forum, .marketplace{
+	background: linear-gradient(
+  	to left,
+  	hsla(190, 100%, 32%, 80%),
+  	hsla(190, 100%, 45%, 80%));
+	color: black;
+	border: 1px solid black;
 }
 
 
