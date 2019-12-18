@@ -22,14 +22,14 @@
         <header class="fixed-height encabezado ">
             <div class="banner flex">
                 <div class="logo">
-                    <img src="https://coollectica.github.io/assets/img/content/BastetLogo.png" height="120" width="120">
+                    <img alt="none" src="https://coollectica.github.io/assets/img/content/BastetLogo.png" height="120" width="120">
                 </div>
                 <div class="titol">
                     <p class="bastet">Add New Item</p>
                     <p class="subtitle">Bastet: The Home Of Your Collections</p>
                 </div>
             </div>
-                <nav calss="navbar">
+                <nav>
                     <ul class="navlist">
                         <li><a href="" class="enlace_menu">Discs</a></li>
                         <li><a href="" class="enlace_menu">Books</a></li>
@@ -43,12 +43,11 @@
           <div class="flex form">
             <form class="flex formfields" action="/action_page.php" method="get" name="addnew">
               <fieldset class="fieldset flex">
-              <legend>Add New Item</legend>
 
 <!--Camp de Categoria-->
 
-              <label for="label">Category</label>
-              <select name="category" placeholder="Select Category">
+              <label>Category</label>
+              <select name="category">
                 <option >Multimedia</option>
                 <option>Books</option>
                 <option>Stamps</option>
@@ -57,8 +56,8 @@
 
 <!-- Camp del Gènere -->
 
-			<label for="label">Genere</label>
-              <select name="genere" placeholder="Select Genere">
+			<label>Genere</label>
+              <select name="genere">
                 <option>Erotic</option>
 				<option>History</option>
 				<option>Kids</option>
@@ -69,51 +68,47 @@
 
 
  <!--Camp de Títol-->
-              <label for="label">Title</label>
+              <label>Title</label>
               <input type="text" name="title" id="title" placeholder="Write Title"><br>
 
 <!--Camp d'Autor-->
-              <label for="label">Author</label>
+              <label>Author</label>
               <input type="text" name="author" id="author" placeholder="Write Author"><br>
 
 
 <!--Camp d'Edició-->
-              <label for="label">Edition</label>
+              <label>Edition</label>
               <input type="text" name="edition" id="edition" placeholder="Enter the number of the Edition"><br>
 
 <!--Camp d'Any-->
-              <label for="year">Year of Edition</label>
+              <label>Year of Edition</label>
               <input type="text" name="year" id="year" placeholder="Enter the year of the Edition"><br>
 
 
 
 <!--Camp de Pàgines-->
-              <label for="label">Pages</label>
+              <label>Pages</label>
               <input type="text" name="pages" id="pages" placeholder="Enter the number of Pages"><br>   
               
 
 <!--Camp de ISBN -->
 
-			 <label for="ISBN">ISBN Number</label>
+			       <label>ISBN Number</label>
              <input type="text" name="ISBN" id="ISBN" placeholder="Enter the ISBN number"><br>
-             <button type="submit" form="form1" value="Submit">Submit</button>
-
-
-
-
-
+             <button type="submit" form="addnew" value="Submit">Submit</button>
           </fieldset>
-
-
-
-
-
-            </form>
+       </form>
          </div>
 		<aside class="fixed-width lateral">
-             <section class="statistics">Statistics<p>Here we will see the Statistics of your collection</p></section>
-             <section class="forum">Forum<p>Here we will see the formu's lasts posts</p></section>
-	         <section class="marketplace">Marketplace<p>Here we will have a link with access to the MarketPlace Page</p> </section>           
+              <section class="statistics">
+                    <h3><strong>Statistics</strong></h3>
+                    <p>Here we will see the Statistics of your collection</p></section>
+              <section class="forum">
+                    <h3><strong>Forum</strong></h3>
+                    <p>Here we will see the formu's lasts posts</p></section>
+            <section class="marketplace">
+                   <h3><strong>Marketplace</strong></h3>
+                   <p>Here we will have a link with access to the MarketPlace Page</p> </section>         
         </aside>
     </main>
 

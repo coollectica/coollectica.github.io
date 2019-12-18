@@ -38,7 +38,7 @@ li a {
 }
 
 .fieldset.flex{
-	min-width: : 25%;
+
 	flex:1 50vw;
 }
 
@@ -68,17 +68,12 @@ li a {
 	justify-content: center;
 }
 
-figcaption {
-	margin-bottom: 20px;
-}
-
 label, select, input{
 	min-width: 95%;
 	max-width: 95%;
 	width: 95%;
 	margin:0;
 }
-
 
 /* BODY - ASIDE */
 
@@ -91,7 +86,7 @@ label, select, input{
 
 .statistics, .forum, .marketplace{
 	height: 200px;
-	width: 90%
+	width: 90%;
 	margin:5px;
 	padding: 10px;
 	margin: 10px;
@@ -153,6 +148,7 @@ figure>img {
 @media screen and (max-width: 1300px){
 		.cols {
 			columns:2;	
+}
 }
 
 
