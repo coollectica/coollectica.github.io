@@ -62,6 +62,13 @@ li a {
 	flex-basis: auto;	
 }
 
+.cols{
+	flex-wrap: wrap;
+	columns:3;
+	flex:1;
+	margin: 10px;
+}
+
 .formfields{
 	min-width: 80%;
 	margin:20px;
@@ -95,12 +102,6 @@ label, select, input{
 .flex.col > .fixed-height{
 	flex-grow:0;
 	flex-shrink: 0;
-}
-
-.cols{
-	columns:3;
-	flex:1;
-	margin: 10px;
 }
 
 .cols > *{
