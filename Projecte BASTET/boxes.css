@@ -31,16 +31,6 @@ li a {
 
 /* BODY - MAIN*/
 
-.flex.form {
-	flex-grow: 1;
-	flex-shrink: 1;
-	justify-content: center;
-}
-
-.fieldset.flex{
-
-	flex:1 50vw;
-}
 
 .flex{
 	display: flex;	
@@ -50,6 +40,16 @@ li a {
 }
 .flex.col{
 	flex-direction: column;
+}
+.flex.form {
+	flex-grow: 1;
+	flex-shrink: 1;
+	justify-content: center;
+}
+
+.fieldset.flex{
+	flex:1 50vw;
+
 }
 
 .flex.col > *{
@@ -66,13 +66,14 @@ li a {
 	min-width: 80%;
 	margin:20px;
 	justify-content: center;
+	flex-direction: column;
 }
 
 label, select, input{
-	min-width: 95%;
-	max-width: 95%;
-	width: 95%;
-	margin:0;
+		min-width: 95%;
+		max-width: 95%;
+		width: 95%;
+		margin:0;
 }
 
 /* BODY - ASIDE */
@@ -80,18 +81,13 @@ label, select, input{
 
 .flex > .fixed-width { 
 	flex: 0 0 250px;
-	border:hsl(0, 0%, 25%) 1px solid;
 	align-items: stretch;
 }
 
 .statistics, .forum, .marketplace{
 	height: 200px;
-	width: 90%;
-	margin:5px;
-	padding: 10px;
-	margin: 10px;
+	max-width: 90%;
 }
-
 
 /* BODY - FOOTER */
 
@@ -125,9 +121,6 @@ figure>img {
 .newadds{
 	flex: 2 auto;
 }
-
-
-/* FOOTER*/
 
 
 .footer{

@@ -56,6 +56,7 @@ li>a {
 
 .lateral{
 	background-color: hsla(36, 100%, 85%, 0.7);
+	border: solid 1px hsla(36, 100%, 85%, 0.7);
 }
 
 .statistics, .forum, .marketplace{

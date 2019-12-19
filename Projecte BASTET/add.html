@@ -18,119 +18,119 @@
 
 <body>
     <div class="tint flex centering">
-    <div class="wrapper flex col">
-        <header class="fixed-height encabezado ">
-            <div class="banner flex">
-                <div class="logo">
-                    <img alt="none" src="https://coollectica.github.io/assets/img/content/BastetLogo.png" height="120" width="120">
+        <div class="wrapper flex col">
+            <header class="fixed-height encabezado ">
+                <div class="banner flex">
+                    <div class="logo">
+                        <img alt="none" src="https://coollectica.github.io/assets/img/content/BastetLogo.png" height="120" width="120">
+                    </div>
+                    <div class="titol">
+                        <p id="header" class="bastet">Add New Item</p>
+                        <p class="subtitle">Bastet: The Home Of Your Collections</p>
+                    </div>
                 </div>
-                <div class="titol">
-                    <p class="bastet">Add New Item</p>
-                    <p class="subtitle">Bastet: The Home Of Your Collections</p>
-                </div>
-            </div>
                 <nav>
                     <ul class="navlist">
+                        <li><a href="#anchorfooter" class="enlace_menu">FOOTER</a></li>
                         <li><a href="" class="enlace_menu">Discs</a></li>
                         <li><a href="" class="enlace_menu">Books</a></li>
                         <li><a href="" class="enlace_menu">Coins</a></li>
                         <li><a href="index.html" class="enlace_menu">Back To Main</a></li>
-
                     </ul>
                 </nav>
-        </header>
-        <main class="flex main">
-          <div class="flex form">
-            <form class="flex formfields" action="/action_page.php" method="get" name="addnew">
-              <fieldset class="fieldset flex">
+            </header>
+            <main class="flex main">
+                <div class="flex form">
+                    <form class="flex formfields" action="/action_page.php" method="get" name="addnew">
+                        <fieldset class="fieldset flex">
+                        <legend>Add New Item</legend>	
 
-<!--Camp de Categoria-->
+                            <!--Camp de Categoria-->
 
-              <label>Category</label>
-              <select name="category">
-                <option >Multimedia</option>
-                <option>Books</option>
-                <option>Stamps</option>
-                <option>Coins</option>
-              </select><br>
+                            <label>Category</label>
+                            <select name="category">
+                                <option>Multimedia</option>
+                                <option>Books</option>
+                                <option>Stamps</option>
+                                <option>Coins</option>
+                            </select><br>
 
-<!-- Camp del Gènere -->
+                            <!-- Camp del Gènere -->
 
-			<label>Genere</label>
-              <select name="genere">
-                <option>Erotic</option>
-				<option>History</option>
-				<option>Kids</option>
-				<option >Police</option>
-				<option>Romantic</option>
-				<option >Terror</option>              
-         		</select><br>
+                            <label>Genere</label>
+                            <select name="genere">
+                                <option>Erotic</option>
+                                <option>History</option>
+                                <option>Kids</option>
+                                <option>Police</option>
+                                <option>Romantic</option>
+                                <option>Terror</option>
+                            </select><br>
 
+                            <!--Camp de Títol-->
 
- <!--Camp de Títol-->
-              <label>Title</label>
-              <input type="text" name="title" id="title" placeholder="Write Title"><br>
+                            <label>Title</label>
+                            <input type="text" name="title" id="title" placeholder="Write Title"><br>
 
-<!--Camp d'Autor-->
-              <label>Author</label>
-              <input type="text" name="author" id="author" placeholder="Write Author"><br>
+                            <!--Camp d'Autor-->
+                            <label>Author</label>
 
+                            <input type="text" name="author" id="author" placeholder="Write Author"><br>
 
-<!--Camp d'Edició-->
-              <label>Edition</label>
-              <input type="text" name="edition" id="edition" placeholder="Enter the number of the Edition"><br>
+                            <!--Camp d'Edició-->
+                            <label>Edition</label>
 
-<!--Camp d'Any-->
-              <label>Year of Edition</label>
-              <input type="text" name="year" id="year" placeholder="Enter the year of the Edition"><br>
+                            <input type="text" name="edition" id="edition" placeholder="Enter the number of the Edition"><br>
 
+                            <!--Camp d'Any-->
 
+                            <label>Year of Edition</label>
+                            <input type="text" name="year" id="year" placeholder="Enter the year of the Edition"><br>
 
-<!--Camp de Pàgines-->
-              <label>Pages</label>
-              <input type="text" name="pages" id="pages" placeholder="Enter the number of Pages"><br>   
-              
+                            <!--Camp de Pàgines-->
 
-<!--Camp de ISBN -->
+                            <label>Pages</label>
+                            <input type="text" name="pages" id="pages" placeholder="Enter the number of Pages"><br>
 
-			       <label>ISBN Number</label>
-             <input type="text" name="ISBN" id="ISBN" placeholder="Enter the ISBN number"><br>
-             <button type="submit" form="addnew" value="Submit">Submit</button>
-          </fieldset>
-       </form>
-         </div>
-		<aside class="fixed-width lateral">
-              <section class="statistics">
-                    <h3><strong>Statistics</strong></h3>
-                    <p>Here we will see the Statistics of your collection</p></section>
-              <section class="forum">
-                    <h3><strong>Forum</strong></h3>
-                    <p>Here we will see the formu's lasts posts</p></section>
-            <section class="marketplace">
-                   <h3><strong>Marketplace</strong></h3>
-                   <p>Here we will have a link with access to the MarketPlace Page</p> </section>         
-        </aside>
-    </main>
+                            <!--Camp de ISBN -->
 
-        
-    
-        <footer class="fixed-height footer">
-            <nav>
-                <ul class="footernavbar">
-                    <li class="footeritems">Copyright Bastet 2019</li>
-                    <li class="footeritems">Instagram</li>
-                    <li class="footeritems">Facebook</li>
-                    <li class="footeritems">Twitter</li>
-                    <li class="footeritems">Policy</li>
-                    <li class="footeritems">Contact</li>
-                    <li class="footeritems">Policy</li>
-                </ul>
-            </nav>
-        </footer>
-      </div>
+                            <label>ISBN Number</label>
+                            <input type="text" name="ISBN" id="ISBN" placeholder="Enter the ISBN number"><br>
+                            <button type="submit" form="addnew" value="Submit">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <aside class="fixed-width lateral">
+                    <section class="statistics">
+                        <h3><strong>Statistics</strong></h3>
+                        <p>Here we will see the Statistics of your collection</p>
+                    </section>
+                    <section class="forum">
+                        <h3><strong>Forum</strong></h3>
+                        <p>Here we will see the formu's lasts posts</p>
+                    </section>
+                    <section class="marketplace">
+                        <h3><strong>Marketplace</strong></h3>
+                        <p>Here we will have a link with access to the MarketPlace Page</p>
+                    </section>
+                </aside>
+            </main>
+            <footer id="anchorfooter" class="fixed-height footer">
+                <nav>
+                    <ul class="footernavbar">
+                        <li class="footeritems"><a href="#header">HEADER</a></li>
+                        <li class="footeritems">Copyright Bastet 2019</li>
+                        <li class="footeritems">Instagram</li>
+                        <li class="footeritems">Facebook</li>
+                        <li class="footeritems">Twitter</li>
+                        <li class="footeritems">Policy</li>
+                        <li class="footeritems">Contact</li>
+                        <li class="footeritems">Policy</li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
     </div>
-
-
 </body>
 
 </html>
